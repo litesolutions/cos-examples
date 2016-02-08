@@ -37,4 +37,14 @@ ClassMethod varNameTooLong()
     w xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, !
 }
 
+/// 
+/// When setting an initial value with #Dim, it actually generates a hidden
+/// SET statement...
+/// 
+ClassMethod dimSideEffect()
+{
+    #dim x as %String = "world"
+    w "hello ", x, "!", !
+}
+
 }
