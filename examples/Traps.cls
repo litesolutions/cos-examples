@@ -27,4 +27,14 @@ ClassMethod indentationTrap()
 quit
 }
 
+/// 
+/// Local variables will only see their 32 first characters taken into account.
+/// More than that and the name is truncated...
+/// 
+ClassMethod varNameTooLong()
+{
+    set xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx = 1
+    w x,!
+}
+
 }
