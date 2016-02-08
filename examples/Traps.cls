@@ -34,7 +34,7 @@ quit
 ClassMethod varNameTooLong()
 {
     set xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx = 1
-    w x,!
+    w xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx =,!
 }
 
 }
