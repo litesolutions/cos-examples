@@ -1,13 +1,13 @@
 /// 
 /// Sample class illustrating problems with inconsistent return codes
 /// 
-Class RetCodeProblems
+Class RetCodeProblems [ Abstract ]
 {
 
 /// 
 /// This method returns a value, but none is declared
 /// 
-Method retvalNotDeclared()
+ClassMethod retvalNotDeclared()
 {
     return 1
 }
@@ -15,10 +15,10 @@ Method retvalNotDeclared()
 /// 
 /// This method is declared to return a value, but not all paths do...
 /// 
-Method missingReturnPaths()
+ClassMethod missingReturnPaths()
 {
     if (condition) {
-        quit 
+        return 
     }
     return 0
 }
