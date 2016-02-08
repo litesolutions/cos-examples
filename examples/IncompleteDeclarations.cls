@@ -1,6 +1,6 @@
-
-A class demonstrating code where some type declarations are incomplete
-
+/// 
+/// A class demonstrating code where some type declarations are incomplete
+/// 
 Class IncompleteDeclarations
 {
 
