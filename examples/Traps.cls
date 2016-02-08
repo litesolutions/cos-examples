@@ -4,7 +4,7 @@
 Class Traps [ Abstract ]
 {
 
-Property condition as %Boolean = 0
+Property condition as %Boolean = 0;
 
 ///
 /// Trap: using a legacy if statement...
