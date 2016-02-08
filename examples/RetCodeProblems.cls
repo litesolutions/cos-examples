@@ -15,7 +15,7 @@ ClassMethod retvalNotDeclared()
 /// 
 /// This method is declared to return a value, but not all paths do...
 /// 
-ClassMethod missingReturnPaths()
+ClassMethod missingReturnPaths() as %Integer
 {
     if (condition) {
         return 
