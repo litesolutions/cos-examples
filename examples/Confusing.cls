@@ -12,6 +12,7 @@ Class examples.Confusing [ Abstract ]
 ClassMethod confusingLocalVar()
 {
     set set = 2
+    w "set is ", set, !
 }
 
 /// 
