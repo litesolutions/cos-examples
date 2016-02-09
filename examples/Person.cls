@@ -14,8 +14,8 @@ Property Name as %String;
 ///
 ClassMethod foo()
 {
-    // We set the value directly in #dim... Which has a side effect!
-    #dim p as examples.Person = ##class(examples.Person).%New()
+    #dim p as examples.Person
+    set p = ##class(examples.Person).%New()
 
     // Indirect access to a property
     w $property(p, "Name"), !
